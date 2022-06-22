@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CounterClick = () => {
+const CounterClickWithUseStateHook = () => {
 
   const [counter, setCounter] = useState(0);
 
@@ -16,4 +16,4 @@ const CounterClick = () => {
 
 };
 
-export default CounterClick;
+export default CounterClickWithUseStateHook;

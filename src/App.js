@@ -1,9 +1,9 @@
 import './App.css';
-import CounterClick from './components/CounterClick';
+import CounterClickWithUseStateHook from './components/CounterClickWithUseStateHook';
 
 function App() {
   return (
-    <CounterClick/>
+    <CounterClickWithUseStateHook/>
   );
 }
 
